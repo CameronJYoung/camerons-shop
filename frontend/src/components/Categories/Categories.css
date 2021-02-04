@@ -1,0 +1,10 @@
+/* Categories component */
+
+.categorySection {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 90%;
+	height: 25%;
+	display: flex;
+	background: lightblue;
+}
