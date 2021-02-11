@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 
 import Home from './pages/Home/Home'
 import Shop from './pages/Shop/Shop'
-import Help from './pages/Help/Help'
+import Account from './pages/Account/Account'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
 			<div className="mainContent">
 				<Switch>
 					<Route path="/shop" component={Shop}></Route>
-					<Route path="/help" component={Help}></Route>
+					<Route path="/account" component={Account}></Route>
 					<Route path="/" component={Home}></Route>
 				</Switch>
 

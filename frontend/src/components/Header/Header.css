@@ -2,6 +2,8 @@
 
 .mainHeader {
 	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
 	height: 15%;
 	display: flex;
 	background: #fffdcc;
@@ -58,6 +60,17 @@
 	width: 30%;
 }
 
+.mainBasketIcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainBasketIcon > img{
+	height: 50%;
+	width: 50%;
+}
+
 /* Header component responsive */
 
 @media screen and (max-width: 915px) {
@@ -68,8 +81,11 @@
 		margin-bottom: 25px;
 		margin-top: 20px;
 	}
+	.mainHeaderNav > ul > li{
+		padding: 8px;
+	}
 	.mainHeaderIcon {
-		margin-bottom: 10px;
+		margin-top: 10px;
 	}
 	.mainHeaderIcon > img{
 		width: 125px;
