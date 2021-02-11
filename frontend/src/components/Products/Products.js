@@ -25,32 +25,24 @@ export default class Products extends React.Component {
 	}
 	render() {
 
+		var {isLoaded, items} = this.state;
 
-			var {isLoaded, items} = this.state;
-
-			if (!isLoaded) {
-				return <div>Loading...</div>
-			} else {
-				return (
-					<div className="ProductSection">
-				
-						{
-							items.map(i => {
-								return <Product key={i.id} name={i.name} desc={i.desc}></Product>
-							})
-						}
-
-
-			
+		if (!isLoaded) {
+			return (
+				<div className="ProductSection">
+					<div>Loading...</div>
 				</div>
-				)
-			}
-			
+			)
+		} else {
+			return (
+				<div className="ProductSection">
+					{
+						items.map(i => {
+							return <Product key={i.id} name={i.name} desc={i.desc}></Product>
+						})
+					}			
+				</div>
+			)
+		}	
 	}
 }
-
-{/* 
-
-	
-	<Product></Product>
- */}
