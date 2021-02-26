@@ -1,0 +1,44 @@
+.homeStoryIcon {
+	width: 400px;
+	height: 400px;
+	margin-right: 60px;
+	float: right;
+}
+.storyContainer {
+	background: white;
+}
+
+.postsContainer {
+	background: #B3EFB2;
+}
+
+.postsContainer > h1{
+	margin-bottom: 40px;
+}
+
+.postCard {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+.postCardThumb {
+	width: 200px;
+	height: 200px;
+	margin-right: 30px;
+}
+
+.postInfoContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.postInfoContainer > h1 {
+	margin-top: 15px;
+}
+
+.postInfoContainer > .callToAction {
+	margin-bottom: 15px;
+}

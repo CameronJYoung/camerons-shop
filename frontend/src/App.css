@@ -1,20 +1,21 @@
-/* Main components */
+
+/* https://coolors.co/401f3e-cca43b-ddc4dd-47a8bd-4a7b9d */
 
 .App {
-	display: flex;
-	flex-direction: column;
-	background: #fffdcc;
-	height: 100%;
-	width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
-
-/* Content component */
 
 .mainContent {
-	width: 100%;
-	height: 70%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background: #DDC4DD;
+    font-family: 'NunitoSans-regular', sans-serif;
 }
+
+
