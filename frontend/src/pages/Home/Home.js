@@ -1,6 +1,7 @@
 import React from "react";
 
 import Footer from '../../components/Footer/Footer';
+import MusicPlayer from '../../components/MusicPlayer/MusicPlayer';
 
 import '../page.css';
 import './Home.css';
