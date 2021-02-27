@@ -1,6 +1,7 @@
 import React from "react";
 
 import '../page.css';
+import '../theme.css';
 import './Account.css';
 
 export default class Account extends React.Component {

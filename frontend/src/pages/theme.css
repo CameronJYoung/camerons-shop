@@ -1,0 +1,42 @@
+/* Background colors */
+.uranianBlue-bg {
+    background: #BADEFC;
+}
+
+.honeyYellow-bg {
+    background: #F6AE2D;
+}
+
+.starCommandBlue-bg {
+    background: #197BBD;
+}
+
+.palatinatePurple-bg {
+    background: #5A0B4D;
+}
+
+.darkLava-bg {
+    background: #423629;
+}
+
+/* Text colors */
+
+.uranianBlue-text {
+    color: #BADEFC;
+}
+
+.honeyYellow-text {
+    color: #F6AE2D;
+}
+
+.starCommandBlue-text {
+    color: #197BBD;
+}
+
+.palatinatePurple-text {
+    color: #5A0B4D;
+}
+
+.darkLava-text {
+    color: #423629;
+}

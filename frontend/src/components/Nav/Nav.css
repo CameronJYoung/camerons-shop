@@ -16,13 +16,11 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	background: #4A7B9D;
 }
 
 .sideNav *{
 	list-style-type: none;
 	text-decoration: none;
-	color: #401F3E;
 	font-family: 'NunitoSans-bold', sans-serif;
 }
 
@@ -33,21 +31,13 @@
 .sideNav > ul > li{
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-size: 32px;
-}
-
-.sideNav > ul > li > a:hover{
-	color: #CCA43B;
-}
-
-.sideNav > ul > li > ul > li > a:hover{
-	color: #CCA43B;
+	font-size: 36px;
 }
 
 .sideNav > ul > li > ul > li{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	font-size: 26px;
+	font-size: 30px;
 }
 
 .sideNav > ul > li > ul > li:first-child{

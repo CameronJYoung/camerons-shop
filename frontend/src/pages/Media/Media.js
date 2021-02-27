@@ -1,6 +1,7 @@
 import React from "react";
 
 import '../page.css';
+import '../theme.css';
 import './Media.css';
 
 export default class Media extends React.Component {

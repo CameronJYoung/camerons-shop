@@ -1,6 +1,7 @@
 import React from "react";
 
 import '../page.css';
+import '../theme.css';
 import './Shop.css';
 
 import Products from '../../components/Products/Products';

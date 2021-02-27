@@ -4,14 +4,15 @@ import Footer from '../../components/Footer/Footer';
 import MusicPlayer from '../../components/MusicPlayer/MusicPlayer';
 
 import '../page.css';
+import '../theme.css';
 import './Home.css';
 
 export default class Home extends React.Component {
 	render() {
 		return (
 			<div className="pageContainer">
-				<div className="pageTitleContainer">
-					<h1>Home</h1>
+				<div className="pageTitleContainer palatinatePurple-bg">
+					<h1 className="honeyYellow-text">Home</h1>
 				</div>
 				<div className="genericContentContainer storyContainer">
 					<h1>The Story</h1>
