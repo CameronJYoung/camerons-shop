@@ -25,10 +25,15 @@
 
 .genericContentContainer {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    
+}
+
+.genericContentContainer > *{
+    margin-right: 30px;
+    margin-left: 30px;
     
 }
 
