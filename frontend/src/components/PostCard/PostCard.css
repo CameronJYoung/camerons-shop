@@ -1,0 +1,30 @@
+.postCard {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 60px;
+}
+
+.postCardThumb {
+	width: 300px;
+	height: 300px;
+	margin-right: 30px;
+}
+
+.postInfoContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.postInfoContainer > p{
+	font-size: 22px;
+}
+
+.postInfoContainer > h1 {
+	margin-top: 15px;
+}
+
+.postInfoContainer > .callToAction {
+	margin-bottom: 15px;
+}
