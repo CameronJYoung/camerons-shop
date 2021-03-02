@@ -15,7 +15,7 @@ export default class Home extends React.Component {
 					<h1 className="honeyYellow-text">Home</h1>
 				</div>
 				<div className="genericContentContainer storyContainer">
-					<h1>The Story</h1>
+					<h1>Some Text</h1>
 					<p>
 						Ullamco sit quis anim tempor eiusmod deserunt velit aute mollit laborum. Incididunt veniam 
 						amet in ex ipsum culpa proident fugiat incididunt nisi excepteur officia ipsum labore. Eu 
@@ -39,6 +39,54 @@ export default class Home extends React.Component {
 				</div>
 				<div className="genericContentContainer postsContainer">
 					<h1>Posts</h1>
+					<div className="postCard">
+						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
+						<div className="postInfoContainer">
+							<h1>Name of Post - Name of Writer</h1>
+							<p>Excepteur sint ex qui adipisicing nostrud laborum nulla voluptate irure esse enim. Sint et deserunt velit proident do est sit sint ex sint. Commodo cillum reprehenderit ullamco et Lorem. Occaecat sint labore anim sunt sit fugiat ea ad pariatur cupidatat sint. Reprehenderit eiusmod ad sint voluptate labore incididunt irure. Quis in ea qui Lorem cillum amet. Duis voluptate exercitation exercitation pariatur qui proident tempor non nulla cillum.</p>
+							<p className="callToAction">Go to post</p>
+						</div>
+					</div>
+					<div className="postCard">
+						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
+						<div className="postInfoContainer">
+							<h1>Name of Post - Name of Writer</h1>
+							<p>Excepteur sint ex qui adipisicing nostrud laborum nulla voluptate irure esse enim. Sint et deserunt velit proident do est sit sint ex sint. Commodo cillum reprehenderit ullamco et Lorem. Occaecat sint labore anim sunt sit fugiat ea ad pariatur cupidatat sint. Reprehenderit eiusmod ad sint voluptate labore incididunt irure. Quis in ea qui Lorem cillum amet. Duis voluptate exercitation exercitation pariatur qui proident tempor non nulla cillum.</p>
+							<p className="callToAction">Go to post</p>
+						</div>
+					</div>
+					<div className="postCard">
+						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
+						<div className="postInfoContainer">
+							<h1>Name of Post - Name of Writer</h1>
+							<p>Excepteur sint ex qui adipisicing nostrud laborum nulla voluptate irure esse enim. Sint et deserunt velit proident do est sit sint ex sint. Commodo cillum reprehenderit ullamco et Lorem. Occaecat sint labore anim sunt sit fugiat ea ad pariatur cupidatat sint. Reprehenderit eiusmod ad sint voluptate labore incididunt irure. Quis in ea qui Lorem cillum amet. Duis voluptate exercitation exercitation pariatur qui proident tempor non nulla cillum.</p>
+							<p className="callToAction">Go to post</p>
+						</div>
+					</div>
+					<div className="postCard">
+						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
+						<div className="postInfoContainer">
+							<h1>Name of Post - Name of Writer</h1>
+							<p>Excepteur sint ex qui adipisicing nostrud laborum nulla voluptate irure esse enim. Sint et deserunt velit proident do est sit sint ex sint. Commodo cillum reprehenderit ullamco et Lorem. Occaecat sint labore anim sunt sit fugiat ea ad pariatur cupidatat sint. Reprehenderit eiusmod ad sint voluptate labore incididunt irure. Quis in ea qui Lorem cillum amet. Duis voluptate exercitation exercitation pariatur qui proident tempor non nulla cillum.</p>
+							<p className="callToAction">Go to post</p>
+						</div>
+					</div>
+					<div className="postCard">
+						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
+						<div className="postInfoContainer">
+							<h1>Name of Post - Name of Writer</h1>
+							<p>Excepteur sint ex qui adipisicing nostrud laborum nulla voluptate irure esse enim. Sint et deserunt velit proident do est sit sint ex sint. Commodo cillum reprehenderit ullamco et Lorem. Occaecat sint labore anim sunt sit fugiat ea ad pariatur cupidatat sint. Reprehenderit eiusmod ad sint voluptate labore incididunt irure. Quis in ea qui Lorem cillum amet. Duis voluptate exercitation exercitation pariatur qui proident tempor non nulla cillum.</p>
+							<p className="callToAction">Go to post</p>
+						</div>
+					</div>
+					<div className="postCard">
+						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
+						<div className="postInfoContainer">
+							<h1>Name of Post - Name of Writer</h1>
+							<p>Excepteur sint ex qui adipisicing nostrud laborum nulla voluptate irure esse enim. Sint et deserunt velit proident do est sit sint ex sint. Commodo cillum reprehenderit ullamco et Lorem. Occaecat sint labore anim sunt sit fugiat ea ad pariatur cupidatat sint. Reprehenderit eiusmod ad sint voluptate labore incididunt irure. Quis in ea qui Lorem cillum amet. Duis voluptate exercitation exercitation pariatur qui proident tempor non nulla cillum.</p>
+							<p className="callToAction">Go to post</p>
+						</div>
+					</div>
 					<div className="postCard">
 						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
 						<div className="postInfoContainer">
