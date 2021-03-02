@@ -11,8 +11,8 @@ export default class Home extends React.Component {
 	render() {
 		return (
 			<div className="pageContainer">
-				<div className="pageTitleContainer palatinatePurple-bg">
-					<h1 className="honeyYellow-text">Home</h1>
+				<div className="pageTitleContainer camsLightGrey-bg">
+					<h1 className="camsMediumGrey-text">Home</h1>
 				</div>
 				<div className="genericContentContainer storyContainer">
 					<h1>Some Text</h1>
@@ -38,7 +38,7 @@ export default class Home extends React.Component {
 					</p>
 				</div>
 				<div className="genericContentContainer postsContainer">
-					<h1>Posts</h1>
+					<h1 className="camsMediumGrey-text">Posts</h1>
 					<div className="postCard">
 						<img className="postCardThumb" src={"https://dummyimage.com/400x400/000/fff"} alt="post thumbnail"></img>
 						<div className="postInfoContainer">

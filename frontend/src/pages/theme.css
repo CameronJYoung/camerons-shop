@@ -11,8 +11,16 @@
     background: #197BBD;
 }
 
-.palatinatePurple-bg {
-    background: #5A0B4D;
+.camsMintGreen-bg {
+    background: #3db997;
+}
+
+.camsLightGrey-bg {
+    background: #eaeaea;
+}
+
+.camsMediumGrey-bg {
+    background: #3a3a3a;
 }
 
 .darkLava-bg {
@@ -33,8 +41,16 @@
     color: #197BBD;
 }
 
-.palatinatePurple-text {
-    color: #5A0B4D;
+.camsMintGreen-text {
+    color: #3db997;
+}
+
+.camsLightGrey-text {
+    color: #eaeaea;
+}
+
+.camsMediumGrey-text {
+    color: #3a3a3a;
 }
 
 .darkLava-text {
