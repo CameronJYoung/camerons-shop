@@ -43,3 +43,30 @@
 .sideNav > ul > li > ul > li:first-child{
 	padding-top: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+	.sideNav {
+		width: 0;
+	}
+	.mobileNavBtn {
+		display: block;
+		position: relative;
+		width: 60px;
+		height: 60px;
+		background: red;
+		padding: 10px;
+		border-radius: 50%;
+		top: -170px;
+		left: 30px;
+	}
+	.navBtn {
+		position: absolute;
+		width: 80%;
+		height: 80%;
+		left: 8px;
+    	top: 8px;
+	}
+	.navClose {
+		transform: rotate(45deg);
+	}
+}

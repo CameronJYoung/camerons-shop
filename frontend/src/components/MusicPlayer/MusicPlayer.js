@@ -5,7 +5,8 @@ export default class MusicPlayer extends React.Component {
 	render() {
 		return (
 			<div className="musicPlayerBar">
-				
+			
+
 			</div>
 		)
 	}

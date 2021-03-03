@@ -51,6 +51,7 @@
 @media only screen and (max-width: 600px) {
     .pageTitleContainer {
         height: 210px;
+        padding-top: 80px;
     }
     
     .pageTitleContainer > h1 {
