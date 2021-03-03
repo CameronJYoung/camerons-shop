@@ -38,6 +38,7 @@
 
 .genericContentContainer > h1 {
     font-size: 62px;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 5px;
 }
@@ -46,5 +47,33 @@
     font-size: 36px;
 }
 
+/* Small Phone */
+@media only screen and (max-width: 600px) {
+    .pageTitleContainer {
+        height: 210px;
+    }
+    
+    .pageTitleContainer > h1 {
+        font-size: 90px;
+    }
+    
+    .genericContentContainer {
 
+    }
+    
+    .genericContentContainer > *{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .genericContentContainer > h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .genericContentContainer > p {
+        font-size: 28px;
+        text-align: center;
+    }
+}
 
