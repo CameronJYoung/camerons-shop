@@ -18,7 +18,7 @@
 }
 
 .postInfoContainer > p{
-	font-size: 22px;
+	font-size: 28px;
 }
 
 .postInfoContainer > h1 {
@@ -27,4 +27,31 @@
 
 .postInfoContainer > .callToAction {
 	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+	.postCard {
+		flex-direction: column;
+		text-align: center;
+	}
+	.postCardThumb {
+		width: 200px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.postInfoContainer > p{
+		font-size: 26px;
+	}
+	
+	.postInfoContainer > h1 {
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	
+	.postInfoContainer > .callToAction {
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}	
 }
