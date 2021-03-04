@@ -1,6 +1,6 @@
 .pageFooter {
     background: grey;
-    display: flex;
+    display: block;
     width: 100%;
     height: 200px;
     padding-bottom: 100px;

@@ -5,9 +5,9 @@ import './Footer.css';
 export default class Footer extends React.Component {
 	render() {
 		return (
-			<footer className="pageFooter">
+			<div className="pageFooter">
                 asd
-            </footer>
+            </div>
 		)
 	}
 }

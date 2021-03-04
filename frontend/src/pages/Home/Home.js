@@ -44,12 +44,6 @@ export default class Home extends React.Component {
 					<PostCard></PostCard>
 					<PostCard></PostCard>
 					<PostCard></PostCard>
-					<PostCard></PostCard>
-					<PostCard></PostCard>
-					<PostCard></PostCard>
-					<PostCard></PostCard>
-					<PostCard></PostCard>
-					<PostCard></PostCard>
 				</div>
 
 				<Footer></Footer>

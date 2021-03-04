@@ -12,10 +12,7 @@
 .pageTitleContainer {
     width: 100%;
     height: 420px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
 .pageTitleContainer > h1 {
@@ -24,10 +21,8 @@
 }
 
 .genericContentContainer {
-    display: flex;
+    display: block;
     width: 100%;
-    flex-direction: column;
-    align-items: center;
 }
 
 .genericContentContainer > *{
