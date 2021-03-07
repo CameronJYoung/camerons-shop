@@ -3,11 +3,21 @@ import {Link} from "react-router-dom";
 
 import '../theme.css';
 
+import LoggedInNav from './components/LoggedInNav/LoggedInNav'
+import LoggedOutNav from './components/LoggedOutNav/LoggedOutNav'
+
 import navBurger from './imgs/nav-burger.svg'
 import navCross from './imgs/nav-cross.svg'
 import './Nav.css';
 
 export default class Nav extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			isLoggedIn : false
+		}
+	}
+
 	render() {
 		return (
 			<nav className="sideNav camsMintGreen-bg">
@@ -34,7 +44,7 @@ export default class Nav extends React.Component {
 							Shop
 						</Link>
 					</li>
-					<li>
+					{/* <li>
 						<Link className="dark-text camsMediumGrey-hover" to="/account">
 							Account
 						</Link>
@@ -55,7 +65,14 @@ export default class Nav extends React.Component {
 								</Link>
 							</li>
 						</ul>
-					</li>
+					</li> */}
+
+					{this.state.isLoggedIn ?
+						<LoggedInNav></LoggedInNav>
+						:
+						<LoggedOutNav></LoggedOutNav>
+					}
+
 				</ul>
 			</nav>
 		)

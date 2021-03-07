@@ -8,7 +8,9 @@ import MusicPlayer from './components/MusicPlayer/MusicPlayer';
 import Home from './pages/Home/Home'
 import Media from './pages/Media/Media'
 import Shop from './pages/Shop/Shop'
-import Account from './pages/Account/Account'
+import Login from './pages/Login/Login'
+import Signup from './pages/Signup/Signup'
+//import Account from './pages/Account/Account'
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
 				<Switch>
 					<Route path="/shop" component={Shop}></Route>
 					<Route path="/media" component={Media}></Route>
-					<Route path="/account" component={Account}></Route>
+					<Route path="/login" component={Login}></Route>
+					<Route path="/signup" component={Signup}></Route>
 					<Route path="/" component={Home}></Route>
 				</Switch>
 				<MusicPlayer></MusicPlayer>
