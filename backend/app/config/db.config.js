@@ -1,10 +1,13 @@
-const Pool = require('pg').Pool
-const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'test',
-    password: 'password',
-    port: 5432,
-})
-
-module.exports = pool
+module.exports = {
+    HOST: 'localhost',
+    USER: 'postgres',
+    PASSWORD: 'password',
+    DB: 'test',
+    dialect: 'postgres',
+    pool: {
+        max: 5,
+        min: 0,
+        acquire: 3000,
+        idle: 10000
+    }
+}

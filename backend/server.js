@@ -18,12 +18,16 @@ app.get('/', (request, response) => {
     response.send({ info: 'Node.js, Express, and Postgres API' })
 })
 
+const db = require("./app/models")
+db.sequelize.sync();
+
 // User Routes
-app.use("/users", Routes.getUserById);
-app.use("/users", Routes.getUsers);
-app.use("/users", Routes.createUser);
-app.use("/users", Routes.deleteUser);
-app.use("/users", Routes.updateUser);
+require("./app/routes/Routes")(app);
+// app.use("/users", Routes.getUserById);
+// app.use("/users", Routes.getUsers);
+// app.use("/users", Routes.createUser);
+// app.use("/users", Routes.deleteUser);
+// app.use("/users", Routes.updateUser);
 
 
 // Listen for http requests

@@ -1,13 +1,10 @@
-const getUserById = require('./users/getUserById')
-const getUsers = require('./users/getUsers')
-const createUser = require('./users/createUser')
-const deleteUser = require('./users/deleteUser')
-const updateUser = require('./users/updateUser')
+module.exports = app => {
+    const users = require("../controllers/users.controller.js");
+  
+    var router = require("express").Router();
+  
+    // Create a new Tutorial
+    router.post("/", users.create);
 
-module.exports = {
-    getUsers,
-    getUserById,
-    createUser,
-    deleteUser,
-    updateUser,
-}
+    app.use("/users", router);
+  };

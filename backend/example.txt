@@ -9,3 +9,4 @@ VALUES ('Cameron', 'cameron@gmail.com', 'shush123')
 https://www.youtube.com/watch?v=aHbE3pTyG-Q&t=733s
 http://www.passportjs.org/docs/
 https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/
+https://github.com/bezkoder/node-js-postgresql-crud-example
