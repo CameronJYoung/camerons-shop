@@ -1,5 +1,6 @@
+require('dotenv').config()
 const express = require('express');
-const Routes = require('./app/routes/Routes');
+const Routes = require('./app/routes/users.routes');
 
 const port = 9001;
 
@@ -11,6 +12,11 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
+// Initialize database
+
+const db = require("./app/models")
+db.sequelize.sync();
+
 // Routes
 
 // Entry Route
@@ -18,19 +24,15 @@ app.get('/', (request, response) => {
     response.send({ info: 'Node.js, Express, and Postgres API' })
 })
 
-const db = require("./app/models")
-db.sequelize.sync();
+
 
 // User Routes
-require("./app/routes/Routes")(app);
-// app.use("/users", Routes.getUserById);
+require("./app/routes/users.routes")(app);
 // app.use("/users", Routes.getUsers);
-// app.use("/users", Routes.createUser);
-// app.use("/users", Routes.deleteUser);
 // app.use("/users", Routes.updateUser);
 
 
-// Listen for http requests
+// Listen for requests
 
 app.listen(port, () => {
 	console.log(`App running on port ${port}.`)

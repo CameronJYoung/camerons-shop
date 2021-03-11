@@ -27,3 +27,54 @@ exports.create = (req, res) => {
         });
 };
 
+exports.delete = (req, res) => {
+    const id = parseInt(req.params.id)
+
+    User.destroy({
+        where: {id:id}
+    }).then(num => {
+        if (num == 1) {
+            res.send({
+                message: 'User deleted'
+            })
+        } else if (num == 2) {
+            res.send({
+                message: `Cannot delete user with id: ${id}, maybe not found`
+            })
+        }
+    })
+    .catch(err => {
+        res.status(500).send({
+            message: `Error deleting user with id: ${id}!`,
+            errMessage: err.message || 'unknown error'
+        })
+    })
+}
+
+exports.getById = (req, res) => {
+    const id = req.params.id;
+
+    User.findByPk(id)
+        .then(data => {
+            res.send(data)
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: `Error finding user with id: ${id}!`,
+                errMessage: err.message || 'unknown error'
+            })
+        })
+}
+
+exports.getAll = (req, res) => {
+    User.findAll()
+        .then(data => {
+            res.send(data);
+        })
+        .catch(err => {
+            res.status(500).send({
+                message: `Error finding all users!`,
+                errMessage: err.message || 'unknown error'
+            })
+        })
+}
