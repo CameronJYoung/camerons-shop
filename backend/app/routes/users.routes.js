@@ -8,6 +8,7 @@ module.exports = app => {
 	router.get("/", users.getAll);
 	router.delete("/:id", users.delete);
 	router.get("/:id", users.getById);
+	router.put("/:id", users.update);
 
 	app.use("/users", router);
 };

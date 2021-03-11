@@ -78,3 +78,24 @@ exports.getAll = (req, res) => {
             })
         })
 }
+
+exports.update = (req, res) => {
+    const id = req.params.id;
+
+    User.update(req.body, {
+        where: {id:id}
+    }).then(num => {
+        if (num == 1) {
+            res.send(`User with id of ${id} has been updated`);
+        } else {
+            res.send({
+                message: `Cannot update user with ID of ${id}. Maybe not found.`
+            })
+        }
+    }).catch(err => {
+        res.status(500).send({
+            message: `Error updating user!`,
+            errMessage: err.message || 'unknown error'
+        })
+    })
+}
