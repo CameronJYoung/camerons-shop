@@ -1,6 +1,5 @@
 require('dotenv').config()
 const express = require('express');
-const Routes = require('./app/routes/users.routes');
 
 const port = process.env.API_PORT;
 
@@ -23,8 +22,11 @@ db.sequelize.sync();
 app.get('/', (request, response) => {
     response.send({ info: 'Node.js, Express, and Postgres API' })
 })
+
 // User Routes
 require("./app/routes/users.routes")(app);
+require("./app/routes/admin.routes")(app);
+
 
 
 // Listen for requests
