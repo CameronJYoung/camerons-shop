@@ -23,9 +23,9 @@ app.get('/', (request, response) => {
     response.send({ info: 'Node.js, Express, and Postgres API' })
 })
 
-// User Routes
 require("./app/routes/users.routes")(app);
 require("./app/routes/admin.routes")(app);
+require("./app/routes/products.routes")(app);
 
 
 
