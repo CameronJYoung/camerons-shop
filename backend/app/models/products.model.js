@@ -9,6 +9,9 @@ module.exports = (sequelize, Sequelize) => {
         tags : {
             type: Sequelize.ARRAY(Sequelize.STRING)
         },
+        imagePath : {
+            type: Sequelize.STRING
+        },
         price : {
             type: Sequelize.DECIMAL
         }
