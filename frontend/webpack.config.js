@@ -24,11 +24,7 @@ module.exports = {
 					{
 						loader: "css-loader",
 						options: {
-							module: true,
-							importLoaders: 1,
-							localIdentName: "[name]_[local]_[hash:base64]",
-							sourceMap: true,
-							minimize: true
+
 						}
 					}
 				]
