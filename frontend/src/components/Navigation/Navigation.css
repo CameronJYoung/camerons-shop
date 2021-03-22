@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     background: gray;
-    padding-bottom: 15px;
 }
 
 .headerLogo {
@@ -55,6 +54,13 @@
 @media (max-width: 800px) {
     .mainHeader {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 510px) {
+    .mainNav > ul > li > a {
+        padding: .5rem;
+
     }
 }
 
