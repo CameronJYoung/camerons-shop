@@ -71,6 +71,10 @@
         display: flex;
     }
 
+    .mainHeader {
+        align-items: flex-start;
+    }
+
     .mainNav > ul {
         display: none;
     }
