@@ -1,0 +1,69 @@
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    padding-bottom: 15px;
+}
+
+.headerLogo {
+    height: 100px;
+    width: 250px;
+    margin: .5rem;
+}
+
+.mainNav > ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+  
+.mainNav > ul > li > a {
+    padding: 1rem;
+    display: block;
+    color: black;
+}
+
+.mainNav > ul > li {
+    display: block;
+}
+
+.mainNav > ul > li:hover {
+    background: lightgrey;
+}
+
+.toggleButton {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggleButton > .bar {
+    height: 3px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .mainHeader {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .toggleButton {
+        display: flex;
+    }
+
+    .mainNav > ul {
+        display: none;
+    }
+}
