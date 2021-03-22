@@ -34,6 +34,8 @@
 }
 
 .toggleButton {
+    background: none;
+    border: none;
     position: absolute;
     top: .75rem;
     right: 1rem;
@@ -42,6 +44,7 @@
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    outline: none;
 }
 
 .toggleButton > .bar {
@@ -70,5 +73,23 @@
 
     .mainNav > ul {
         display: none;
+    }
+
+    .mainNav > ul.active {
+        display: flex;
+    }
+
+    .mainNav {
+        width: 100%;
+    }
+    .mainNav > ul{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .mainNav > ul > li {
+        width: 100%;
+        text-align: center;
     }
 }
