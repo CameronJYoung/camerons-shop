@@ -29,9 +29,8 @@ function App() {
 				</Switch>
 
 				
-				<MusicPlayer></MusicPlayer>
 			</div>
-
+			<MusicPlayer></MusicPlayer>
 		</Router>
     </div>
   );
