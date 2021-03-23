@@ -27,6 +27,7 @@ function App() {
 					<Route path="/account" component={Account}></Route>
 					<Route path="/" component={Home}></Route>
 				</Switch>
+
 				
 				<MusicPlayer></MusicPlayer>
 			</div>
