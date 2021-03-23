@@ -7,21 +7,21 @@
 }
 
 .indigo-background {
-    background: #08415C;
+    background: var(--indigo-color);
 }
 
 .mauve-background {
-    background: #805E73;
+    background: var(--mauve-color);
 }
 
 .lightBlue-background {
-    background: #A6CFD5;
+    background: var(--lightBlue-color);
 }
 
 .melon-background {
-    background: #EFB0A1;
+    background: var(--melon-color);
 }
 
 .pink-background {
-    background: #E2C2C6;
+    background: var(--pink-color);
 }

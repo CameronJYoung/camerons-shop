@@ -22,7 +22,7 @@ export default class Navigation extends React.Component {
 
 	render() {
 		return (
-            <header className="mainHeader">
+            <header className="mainHeader indigo-background">
                 <button onClick={this.toggleNav} className="toggleButton">
                     <span className="bar"></span>
                     <span className="bar"></span>
