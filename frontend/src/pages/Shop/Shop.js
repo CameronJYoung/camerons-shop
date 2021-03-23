@@ -6,8 +6,9 @@ export default class Shop extends React.Component {
 	render() {
 		return (
 			<>
-				<h1>Shop</h1>
-			
+				<div className="headingContainer lightBlue-background">
+					<h1>Shop</h1>
+				</div>
 			</>
 		)
 	}

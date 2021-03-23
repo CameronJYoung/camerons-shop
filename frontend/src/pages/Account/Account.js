@@ -6,8 +6,9 @@ export default class Account extends React.Component {
 	render() {
 		return (
 			<>
-				<h1>Account</h1>
-			
+				<div className="headingContainer lightBlue-background">
+					<h1>Account</h1>
+				</div>
 			</>
 		)
 	}

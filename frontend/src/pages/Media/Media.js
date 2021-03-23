@@ -6,8 +6,9 @@ export default class Media extends React.Component {
 	render() {
 		return (
 			<>
-				<h1>Media</h1>
-			
+				<div className="headingContainer lightBlue-background">
+					<h1>Media</h1>
+				</div>
 			</>
 		)
 	}
