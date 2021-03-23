@@ -37,7 +37,7 @@
     background: none;
     border: none;
     position: absolute;
-    top: .75rem;
+    top: 1rem;
     right: 1rem;
     display: none;
     width: 90px;
@@ -69,6 +69,7 @@
 
     .mainNav > ul {
         display: none;
+        text-transform: uppercase;
     }
 
     .mainNav > ul.active {
