@@ -9,7 +9,15 @@
 }
 
 .headingContainer > h1 {
+    padding: 3rem;
     font-size: 6rem;
+}
+
+@media (max-width: 510px) {
+    .headingContainer > h1 {
+        padding: 1.5rem;
+        font-size: 3rem;
+    }
 }
 
 .genericContainer {

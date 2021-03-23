@@ -52,6 +52,12 @@
     background: url('./imgs/hamburger-icon.svg') center no-repeat;
 }
 
+@media (max-width: 1024px) {
+    .mainNav > ul > li > a {
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 800px) {
     .mainHeader {
         flex-direction: column;
