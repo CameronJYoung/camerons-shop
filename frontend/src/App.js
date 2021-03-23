@@ -3,6 +3,7 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom'
 import './App.css';
 
 import Navigation from './components/Navigation/Navigation'
+import MusicPlayer from './components/MusicPlayer/MusicPlayer'
 
 import Home from './pages/Home/Home'
 import Media from './pages/Media/Media'
@@ -27,6 +28,7 @@ function App() {
 					<Route path="/" component={Home}></Route>
 				</Switch>
 				
+				<MusicPlayer></MusicPlayer>
 			</div>
 
 		</Router>
