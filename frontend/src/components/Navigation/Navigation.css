@@ -40,18 +40,10 @@
     top: .75rem;
     right: 1rem;
     display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    width: 90px;
+    height: 63px;
     outline: none;
-}
-
-.toggleButton > .bar {
-    height: 3px;
-    width: 100%;
-    background: white;
-    border-radius: 10px;
+    background: url('./imgs/hamburger-icon.svg') center no-repeat;
 }
 
 @media (max-width: 800px) {
@@ -68,7 +60,7 @@
 
 @media (max-width: 425px) {
     .toggleButton {
-        display: flex;
+        display: block;
     }
 
     .mainHeader {
