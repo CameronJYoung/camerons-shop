@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: gray;
+    background: var(--indigo-color);
+    padding-bottom: 10px;
 }
 
 .headerLogo {
@@ -21,8 +22,9 @@
   
 .mainNav > ul > li > a {
     padding: 1rem;
+    font-size: 1.75rem;
     display: block;
-    color: black;
+    color: var(--pink-color);;
 }
 
 .mainNav > ul > li {
@@ -49,6 +51,9 @@
 @media (max-width: 800px) {
     .mainHeader {
         flex-direction: column;
+    }
+    .mainNav > ul > li > a {
+        font-size: 1rem;
     }
 }
 
@@ -88,5 +93,9 @@
     .mainNav > ul > li {
         width: 100%;
         text-align: center;
+    }
+
+    .mainNav > ul > li > a {
+        font-size: 1.5rem;
     }
 }
