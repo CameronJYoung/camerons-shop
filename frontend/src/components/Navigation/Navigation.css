@@ -38,10 +38,10 @@
     border: none;
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: .1rem;
     display: none;
-    width: 90px;
-    height: 63px;
+    width: 60px;
+    height: 42px;
     outline: none;
     background: url('./imgs/hamburger-icon.svg') center no-repeat;
 }
