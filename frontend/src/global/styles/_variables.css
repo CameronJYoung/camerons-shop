@@ -5,3 +5,23 @@
     --melon-color: #EFB0A1;
     --pink-color: #E2C2C6;
 }
+
+.indigo-background {
+    background: #08415C;
+}
+
+.mauve-background {
+    background: #805E73;
+}
+
+.lightBlue-background {
+    background: #A6CFD5;
+}
+
+.melon-background {
+    background: #EFB0A1;
+}
+
+.pink-background {
+    background: #E2C2C6;
+}
