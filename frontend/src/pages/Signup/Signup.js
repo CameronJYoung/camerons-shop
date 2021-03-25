@@ -7,6 +7,9 @@ export default class Signup extends React.Component {
 				<div className="headingContainer lightBlue-background">
 					<h1>Signup</h1>
 				</div>
+				<div className="authFormContainer">
+					ads
+				</div>
             </>
 		)
 	}
