@@ -43,17 +43,13 @@
 
 @media (max-width: 425px) {
     .genericContainer > p{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
         font-size: 1rem;
+        padding-bottom: .5rem;
+        padding-top: .5rem;
     }
     .genericContainer > h1{
-        padding-left: 4rem;
-        padding-right: 4rem;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
+        padding-bottom: .5rem;
+        padding-top: .5rem;
         font-size: 3rem;
     }
 }
